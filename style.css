@@ -1,0 +1,137 @@
+body, html{
+    height: 90%;
+    background-color: black;
+    font-family: Roboto;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+   color:antiquewhite; 
+}
+
+#title{
+    position:absolute;
+    font-size: 120%;
+    height:50px;
+    width:400px;
+    margin-left: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav{
+    position:absolute;
+    top:30px;
+    margin-left: 50%;
+    margin-top: 11px;
+}
+
+nav li{
+    
+    display: inline;
+    align-items: center;
+    color: antiquewhite;
+    top:10px;
+    margin-left: 10px;
+    margin-right:10px;
+    font-size: 120%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+#hero-overlay{
+    position: absolute;
+    top: 17.5%;
+    height: 600px;
+    width: 100%;
+    background-image: radial-gradient(circle, transparent, transparent, black)
+}
+
+#hero-image{
+    position: static;
+    height:105%; 
+    width:100%;
+    margin-top:0px;
+}
+
+#center-text{
+    position:absolute;
+    font-size: 900%;
+    text-align: center;
+    top:16%;
+    left:19%;
+}
+
+#main{
+    position:relative;
+    background-color: white;
+    height:1110px;
+    width:100%;
+    top:-1%;
+}
+
+#date-box{
+    position: absolute;
+    height:30px;
+    width:900px;
+    margin-top: 10%;
+    margin-left: 20%;
+    background-color: rgba(179, 130, 130, 0.1);
+    border: 2px solid rgba(179, 130, 130, 0.4);
+}
+
+#date{
+    position:absolute;
+    text-align: center;
+    color:black;
+    font-size: 140%;
+    margin-top: 3px;
+    margin-left: 7%;
+    
+}
+
+.flexbox-container{
+    position: relative;
+    display:flex;
+    height:200px;
+    width:900px;
+    left:0px;
+    top:220%;
+    padding-bottom: 20px;;
+}
+
+.flexbox-item{
+    position:absolute;
+    bottom: 0px;
+    margin:auto;
+    height:100px;
+    width: 900px;
+    border-bottom: 2px solid rgba(179, 130, 130, 0.4);
+}
+
+.raisin{
+    position:static;
+    height:50px;
+    width:50px;
+    bottom:90%;
+    left:120px;
+}
+
+.flexbox h1, h2, h3, h4, h5, h6{
+    color:black;
+    position:relative;
+    left:35%;
+    bottom:117%;
+}
+
+.more{
+    position:relative;
+    bottom:210%;
+    left:86%;
+    background-color: rgb(244, 192, 173);
+    border:2px solid rgb(228, 171, 150);
+    padding:15px 20px 15px 20px;
+    color:white;
+
+}
