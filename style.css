@@ -87,7 +87,7 @@ nav li{
     color:black;
     font-size: 140%;
     margin-top: 3px;
-    margin-left: 7%;
+    margin-left: 14%;
     
 }
 
@@ -98,7 +98,7 @@ nav li{
     width:900px;
     left:0px;
     top:220%;
-    padding-bottom: 20px;;
+    padding-bottom: 20px;
 }
 
 .flexbox-item{
@@ -111,11 +111,11 @@ nav li{
 }
 
 .raisin{
-    position:static;
-    height:50px;
-    width:50px;
-    bottom:90%;
-    left:120px;
+    position:absolute;
+    height:150px;
+    width:150px;
+    bottom:50%;
+    left:100px;
 }
 
 .flexbox h1, h2, h3, h4, h5, h6{
