@@ -42,8 +42,8 @@ nav li{
 
 #hero-overlay{
     position: absolute;
-    top: 17.5%;
-    height: 600px;
+    top: 13%;
+    height: 630px;
     width: 100%;
     background-image: radial-gradient(circle, transparent, transparent, black)
 }
