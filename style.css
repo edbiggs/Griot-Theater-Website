@@ -135,3 +135,9 @@ nav li{
     color:white;
 
 }
+
+a {
+    color:inherit;
+    text-decoration: inherit;
+     
+}
